@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+
+.about{
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFCF8;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 80px 115px;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 560px;
+    width: 100%;
+    padding: 52px 80px;
+    box-sizing: border-box;
+    background-color: #1B2B38;
+    margin-right: 5px;
+}
+
+.about-box.info{
+    justify-content: space-between;
+    background: 0;
+    border: 1px solid #566470;
+    box-sizing: border-box;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.section-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFCF8;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.section-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFCF8;
+}
+
+.section-text.list{
+    padding: 20px 0;
+}
+
+.header-button.more-info{
+    max-width: 232px;
+    margin-top: 56px;
+}
+
+.about-box-info-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid grey; */
+    box-sizing: border-box;
+}
+
+.about-box-info-item-text{
+    display: flex;
+    max-width: 280px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.about-num{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #A6844C;
+}
+
+.about-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #05080B;
+}
+
+.about-icon{
+    width: 56px;
+    height: 56px;
+}
+
+.about-line{
+    display: flex;
+    height: 80px;
+    border-right: 1px solid #A6844C;
+    box-sizing: border-box;
+}

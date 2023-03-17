@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(about.css);
+@import url(practices.css);
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fa-brands{
+    color: #FFFCF8;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    color: #b4b4b4;;
+}
