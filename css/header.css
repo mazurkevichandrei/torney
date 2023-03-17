@@ -24,6 +24,7 @@
     min-height: 100vh;
     box-sizing: border-box;
     padding: 26px 115px;
+    padding-bottom: 80px;
 }
 
 .navi-container{
@@ -32,6 +33,7 @@
     justify-content: space-between;
     width: 100%;
     align-self: flex-start;
+    margin-bottom: 40px;
 }
 
 .navi-top{
