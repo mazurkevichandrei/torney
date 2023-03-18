@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(about.css);
 @import url(practices.css);
+@import url(team.css);
 
 body{
     margin: 0;

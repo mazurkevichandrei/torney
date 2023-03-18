@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.team{
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFCF8;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    padding: 80px 115px;
+}
+
+.section-title.team-title{
+    color: #1B2B38;
+}
+
+.team-subtitle{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #1B2B38;
+    margin-bottom: 32px;
+}
+
+.team-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 272px;
+    width: 100%;
+    margin: 8px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+
+.image-area{
+    max-width: 272px;
+    height: 272px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.team-photo{
+    width: 100%;
+    /* height: 268px; */
+    box-sizing: border-box;
+    border: 0;
+    border-left: 4px solid #A6844C;
+    padding-left: -20px;
+}
+
+.team-name{
+    font-family: 'Outfit',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #1B2B38;
+}
+
+.team-position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #566470;
+}
+
+.team-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.fa-brands.team-icon{
+    font-size: 24px;
+    padding: 0 4px;
+    color: #1B2B38;
+    transition: all .3s linear;
+}
+
+.fa-brands.team-icon:hover{
+    color: #566470;
+}
