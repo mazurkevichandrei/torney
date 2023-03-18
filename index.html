@@ -250,6 +250,49 @@
             </div>
         </div>
     </section>
+    <section class="contacts">
+        <div class="contacts-container">
+            <div class="about-container contacts-style info">
+                <h3 class="section-title contacts-title">контакты</h3>
+                <div class="contact-item">
+                    <img class="contact-img" src="img/contacts/Address-marker.png">
+                    <div class="contact-info">
+                        Юр. адрес: г. Москва, ул. Лесная, дом 3/9, строение 6, этаж 4
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="img/contacts/Mail-rounded.png">
+                    <div class="contact-info">
+                        Email:  info@pravo-torney.ru
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="img/contacts/Telephone.png">
+                    <div class="contact-info">
+                        +7 (495) 785-35-36<br>
+                        +7 (495) 785-35-40<br>
+                        +7 (495) 785-35-42
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="img/contacts/Clock.png">
+                    <div class="contact-info">
+                        Понедельник-Воскресенье<br>
+                        с 09.00 до 21.00
+                    </div>
+                </div>
+            </div>
+            <div class="about-container contacts-style fields">
+                    <form name="torney" id="torney" action="#" method="post" onsubmit="event.preventDefault(); return validateMyForm();">
+                        <input type="text" name="torney-name" id="torney-name" placeholder="Имя" required maxlength="15" autocomplete="off" class="input-field">
+                        <input type="email" name="torney-email" id="torney-email" placeholder="Почта" required autocomplete="off" class="input-field">
+                        <input type="phone" name="torney-phone" id="torney-phone" placeholder="Телефон" required autocomplete="off" class="input-field">
+                        <textarea rows="4" name="torney-message"  id="torney-message" placeholder="Сообщение" required s autocomplete="off" class="input-field"></textarea>               
+                    </form>
+                  <input type="submit" name="torney-submit" id="torney-submit" form="torney" value="Отправить">
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

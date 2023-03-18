@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.contacts{
+    width: 100%;
+    margin: 0 auto;
+    background: #E4E4E4;
+}
+
+.contacts-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    /* text-align: center; */
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    padding: 80px 110px;
+}
+
+.section-title.contacts-title{
+    margin-bottom: 40px;
+}
+
+.about-container.contacts-style{
+    /* border: 1px solid green; */
+    max-width: 560px;
+    width: 100%;
+    /* height: 300px; */
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-title.contacts-title{
+    color: #1B2B38;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+.contact-img{
+    width: 32px;
+    height: 32px;
+}
+
+.contact-info{
+    margin:0 20px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #05080B;
+}
+
+.about-container.contacts-style.fields{
+    padding: 52px 80px;
+    background-color: #1B2B38;
+}
+
+.input-field{
+    padding: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #566470;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#torney-submit{
+    max-width: 260px;
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #A6844C;
+    transition: all .3s linear;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B2B38;
+}
+#torney-submit:focus{
+    background-color: #a17632;
+    outline: none;
+}

@@ -34,13 +34,14 @@
     line-height: 28px;
     text-align: center;
     color: #1B2B38;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 
 .team-card-container{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px;
+    margin-bottom: -20px;
 }
 
 .team-card{
@@ -50,6 +51,8 @@
     max-width: 272px;
     width: 100%;
     margin: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     /* border: 2px solid red; */
     box-sizing: border-box;
 }
