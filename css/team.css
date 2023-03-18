@@ -39,6 +39,7 @@
 
 .team-card-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 -10px;
     margin-bottom: -20px;
