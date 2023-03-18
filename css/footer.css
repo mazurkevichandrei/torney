@@ -124,6 +124,7 @@
 .footer-info-item-text.footer-link{
     cursor: pointer;
     transition: all .3s linear;
+    text-decoration: none;
 }
 
 .footer-info-item-text.footer-link:hover{
